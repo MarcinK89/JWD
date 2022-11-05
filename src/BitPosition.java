@@ -10,7 +10,6 @@ public class BitPosition {
         System.out.println();
 
         System.out.println(String.format("%32s",Integer.toBinaryString(i).replace(' ', '0')));
-        System.out.println(String.format("%32s",Integer.toBinaryString(i).replace(' ', '0')));
-        System.out.println(String.format("%32s",Integer.toBinaryString(i).replace(' ', '0')));
+
     }
 }
