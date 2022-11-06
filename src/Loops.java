@@ -3,6 +3,44 @@ import java.math.BigInteger;
 public class Loops {
     public static void main(String[] args) {
 
+         out: for (int i = 0; i < 10; i++) {     //dodanie etykiety out po to by zakonczy obie petle, gdyby nie bylo etykiety out to by zakonczyla sie tylko wewnetrzna petla a zewnetrzna by zostala
+
+            for (int j = 0; j < 50; j++) {
+                System.out.println(i + " " + j);
+                break out;
+            }
+
+        }
+
+
+
+
+
+
+
+        //liczba bedzie nie parzysta to jej nie wyswietli
+
+    //    for (int i = 1; i < 10; i++) {
+//
+ //           if (i % 2 == 1) {
+  //              continue;
+    //        }
+  //          System.out.print(i);
+   //         System.out.print(" ");
+  //      }
+
+
+
+
+
+
+
+
+  //      for (int i = 1; i < 10 ; i++) {
+  //          System.out.print(i);
+  //          System.out.print(" ");
+
+        }
 
 
 
@@ -13,7 +51,7 @@ public class Loops {
 
 
          //petla while
-        int i = 0;
+//        int i = 0;
 //        while (i < 100) {
 //            System.out.println(i);
  //           i++;
@@ -107,4 +145,4 @@ public class Loops {
        }
 
 */    }
-}
+
